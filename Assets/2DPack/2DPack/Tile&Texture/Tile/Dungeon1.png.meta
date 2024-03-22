@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1381,12 +1381,12 @@ TextureImporter:
       Dungeon1_15: -935677743
       Dungeon1_27: 1203820297
       Dungeon1_38: -1169125839
-      Dungeon1_17: 1037262615
+      Dungeon1_56: -2034918447
       Dungeon1_54: 1943921021
       Dungeon1_29: -214584495
-      Dungeon1_35: 1567809855
+      Dungeon1_17: 1037262615
       Dungeon1_30: -868416451
-      Dungeon1_56: -2034918447
+      Dungeon1_35: 1567809855
       Dungeon1_48: 2007473884
       Dungeon1_21: 1887388705
       Dungeon1_2: 26302431
