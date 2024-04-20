@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public int comboNum;
     public float comboTime;
     public float dashTime;
-    
+    public float jumpForce;
 
     public LayerMask floorLayer;
 
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
             dashTime = 0;
             skin.GetComponent<Animator>().Play("PlayerDash", -1);
             rb.velocity = Vector2.zero;
-            rb.AddForce(new Vector2(skin.localScale.x * 150, 0));
+            rb.AddForce(new Vector2(skin.localScale.x * 650, 0));
         }
 
         comboTime = comboTime + Time.deltaTime;
@@ -58,15 +58,19 @@ public class PlayerController : MonoBehaviour
         }
 
 
+       //Pulo do personagem 
 
-        bool canJump = Physics2D.OverlapCircle(floorCollider.position, 0.1f, floorLayer);
+        bool canJump = Physics2D.OverlapCircle(floorCollider.position, 1f, floorLayer);
+        Debug.Log(canJump);
+        Debug.Log(floorLayer.value);
         if (canJump && Input.GetButtonDown("Jump") && comboTime > 0.5f)
-        {            
+        {
+            Debug.Log("executor");
             skin.GetComponent<Animator>().Play("PlayerJump", -1);
             rb.velocity = Vector2.zero;
-            rb.AddForce(new Vector2(0, 150));
+            rb.AddForce(new Vector2(0, jumpForce));
         }
-        vel = new Vector2(Input.GetAxisRaw("Horizontal") * 1, rb.velocity.y);
+        vel = new Vector2(Input.GetAxisRaw("Horizontal") * 5.5f, rb.velocity.y);
 
         if (Input.GetAxisRaw("Horizontal") != 0)
         {

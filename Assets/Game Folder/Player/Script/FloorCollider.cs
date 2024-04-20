@@ -7,7 +7,8 @@ public class FloorCollider : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip groundedSound;
-    
+    internal static Vector2 position;
+
 
 
     // Start is called before the first frame update
