@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - floor
   - Floor
   - Enemy
   layers:
