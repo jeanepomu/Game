@@ -120,7 +120,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 60f2c3e52e9f7bf49acb867e5a617a35
-      internalID: -1311011532
+      internalID: -368401321789775361
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0e060b22a8d6929499ea95cd8e288dcf
-      internalID: 2119593559
+      internalID: -4206819594563279181
       vertices: []
       indices: 
       edges: []
@@ -162,7 +162,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dff6d96d01d5e1f4d85852037a649c39
-      internalID: 144456191
+      internalID: 566846315969825457
       vertices: []
       indices: 
       edges: []
@@ -183,7 +183,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 25151593f6f579548945658b42d15ac1
-      internalID: -1542379935
+      internalID: -983121831306131238
       vertices: []
       indices: 
       edges: []
@@ -204,7 +204,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f1d4fd5292c9b1e409d3f249a2c8a369
-      internalID: 503684816
+      internalID: -9150735976156324452
       vertices: []
       indices: 
       edges: []
@@ -225,7 +225,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c7f2e1fcfeebc4a49a8c6c2a32eb73a0
-      internalID: -520159819
+      internalID: -1050146069433883852
       vertices: []
       indices: 
       edges: []
@@ -246,7 +246,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5dd371ba30508f847b04b3355a058409
-      internalID: -1973048100
+      internalID: 3754962894339544984
       vertices: []
       indices: 
       edges: []
@@ -254,7 +254,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -262,13 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Decoration_2: 144456191
-      Decoration_6: -1973048100
-      Decoration_4: 503684816
-      Decoration_3: -1492662973
-      Decoration_0: -1311011532
-      Decoration_1: 2119593559
-      Decoration_5: -520159819
+      Decoration_2: 566846315969825457
+      Decoration_6: 3754962894339544984
+      Decoration_4: -9150735976156324452
+      Decoration_3: -983121831306131238
+      Decoration_0: -368401321789775361
+      Decoration_1: -4206819594563279181
+      Decoration_5: -1050146069433883852
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
