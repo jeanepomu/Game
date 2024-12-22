@@ -49,7 +49,7 @@ public class GhostController : MonoBehaviour
 
             }
 
-            transform.position = Vector2.MoveTowards(transform.position, a.position, 2f * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, a.position, 15f * Time.deltaTime);
         }
     }
 

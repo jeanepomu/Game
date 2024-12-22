@@ -26,10 +26,12 @@ public class BatController : MonoBehaviour
         }
 
 
-        if (Vector2.Distance(transform.position, player.position) > 0.2f)
+        if (Vector2.Distance(transform.position, player.GetComponent<CapsuleCollider2D>().bounds.center) > 0.9f)
         {
             attackTime = 0;
-            transform.position = Vector2.MoveTowards(transform.position, player.position, 0.5f * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, player.GetComponent<CapsuleCollider2D>().bounds.center, 2f * Time.deltaTime);
+
+
         }
         else
         {
