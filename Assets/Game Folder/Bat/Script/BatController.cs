@@ -39,7 +39,7 @@ public class BatController : MonoBehaviour
             if(attackTime >= 1)
             {
                 attackTime = 0;
-                player.GetComponent<Character>().life--;
+                player.GetComponent<Character>().PlayerDamage(1);               
             }
         }
         
