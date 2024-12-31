@@ -53,7 +53,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e4b2ad34ac607c40a89d63181c39823, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,3 +206,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 1
   skin: {fileID: 1961038641573130750}
+  cam: {fileID: 0}

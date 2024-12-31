@@ -50,7 +50,7 @@ public class KeeperController : MonoBehaviour
         {
             skin.localScale = new Vector3(-1, 1, 1);
 
-            if (Vector2.Distance(transform.position, a.position) < 0.2f)
+            if (Vector2.Distance(transform.position, a.position) < 0.1f)
             {
                 goRight = true;
 
