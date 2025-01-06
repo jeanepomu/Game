@@ -23,6 +23,7 @@ public class BatController : MonoBehaviour
             GetComponent<CircleCollider2D>().enabled = false;
             GetComponent<Rigidbody2D>().gravityScale = 1;
             this.enabled = false;
+
         }
 
 
@@ -33,13 +34,13 @@ public class BatController : MonoBehaviour
 
 
         }
-        else
+        else if (player.GetComponent<Character>().life > 0) // Verifica se o personagem ainda está vivo
         {
-            attackTime = attackTime + Time.deltaTime;
-            if(attackTime >= 0.6f)
+            attackTime += Time.deltaTime;
+            if (attackTime >= 0.6f)
             {
                 attackTime = 0;
-                player.GetComponent<Character>().PlayerDamage(1);               
+                player.GetComponent<Character>().PlayerDamage(1);
             }
         }
         

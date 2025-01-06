@@ -8,7 +8,7 @@ public class Character : MonoBehaviour
     public int life;
     public Transform skin;
     public Transform cam;
-
+    public GameObject player;
     public Text heartCountText;
 
     // Start is called before the first frame update
