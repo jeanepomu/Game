@@ -6,6 +6,8 @@ public class EnemyDoorController : MonoBehaviour
 {
     int lifeChange;
 
+    public Transform lifeBar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +27,8 @@ public class EnemyDoorController : MonoBehaviour
         {
             Destroy(transform.gameObject);
         }
+
+        lifeBar.localScale = new Vector3( (1 * GetComponent<Character>().life) / 10, 1, 1);
+
     }
 }
