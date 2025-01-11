@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,16 +17,27 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
 
     public LayerMask floorLayer;
+    public string currentLevel;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();        
+        rb = GetComponent<Rigidbody2D>();
+        currentLevel = SceneManager.GetActiveScene().name;
+        DontDestroyOnLoad(transform.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!currentLevel.Equals(SceneManager.GetActiveScene().name))
+        {
+            currentLevel = SceneManager.GetActiveScene().name;
+            transform.position = GameObject.Find("Spawn").transform.position;
+               
+        }
+
+
         if(GetComponent<Character>().life <= 0)
         {
             rb.simulated = false;
