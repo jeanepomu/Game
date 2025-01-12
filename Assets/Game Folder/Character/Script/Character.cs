@@ -25,7 +25,11 @@ public class Character : MonoBehaviour
             skin.GetComponent<Animator>().Play("Die", -1);
         }
 
-        heartCountText.text = "x" + life.ToString();
+        if (transform.CompareTag("Player"))
+        {
+            heartCountText.text = "x" + life.ToString();
+        }
+             
 
     }
 
@@ -34,7 +38,7 @@ public class Character : MonoBehaviour
         life = life - value;
         skin.GetComponent<Animator>().Play("PlayerDamage", 1);
         cam.GetComponent<Animator>().Play("CameraPlayerDamage", -1);
-
+        GetComponent<PlayerController>().audioSource.PlayOneShot(GetComponent<PlayerController>().damageSound);
     }
 
 }

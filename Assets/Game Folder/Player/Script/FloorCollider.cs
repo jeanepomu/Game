@@ -8,8 +8,8 @@ public class FloorCollider : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip groundedSound;
     internal static Vector2 position;
-
-
+   
+    
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +28,7 @@ public class FloorCollider : MonoBehaviour
         if (collision.CompareTag("Floor"))
         {
             audioSource.PlayOneShot(groundedSound, 0.3f);
+            audioSource.PlayOneShot(groundedSound);
         }
     }
 

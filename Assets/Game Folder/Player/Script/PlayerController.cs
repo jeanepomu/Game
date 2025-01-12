@@ -7,7 +7,15 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
     Vector2 vel;
+
+    //Audio Personagem 
     public AudioSource audioSource;
+    public AudioClip attack1Sound;
+    public AudioClip attack2Sound;
+    public AudioClip damageSound;
+    public AudioClip dashSound;
+
+    
     public Transform floorCollider;
     public Transform skin;
 
@@ -22,6 +30,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
         currentLevel = SceneManager.GetActiveScene().name;
         DontDestroyOnLoad(transform.gameObject);
@@ -47,6 +56,8 @@ public class PlayerController : MonoBehaviour
         dashTime = dashTime + Time.deltaTime;
         if (Input.GetButtonDown("Fire2") && dashTime > 1) 
         {
+            audioSource.PlayOneShot(dashSound, 0.5f);
+
             dashTime = 0;
             skin.GetComponent<Animator>().Play("PlayerDash", -1);
             rb.velocity = Vector2.zero;
@@ -64,6 +75,18 @@ public class PlayerController : MonoBehaviour
 
             comboTime = 0;
             skin.GetComponent<Animator>().Play("PlayerAttack" + comboNum, -1);
+
+            if(comboNum == 1)
+
+            {
+                audioSource.PlayOneShot(attack1Sound, 0.5f);
+            }
+
+            if (comboNum == 1)
+
+            {
+                audioSource.PlayOneShot(attack2Sound, 0.5f);
+            }
         }
        if(comboTime >= 1)
         {
