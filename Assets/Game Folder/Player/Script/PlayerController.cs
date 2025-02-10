@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     public AudioClip damageSound;
     public AudioClip dashSound;
 
-    
+
     public Transform floorCollider;
     public Transform skin;
 
@@ -43,18 +43,18 @@ public class PlayerController : MonoBehaviour
         {
             currentLevel = SceneManager.GetActiveScene().name;
             transform.position = GameObject.Find("Spawn").transform.position;
-               
+
         }
 
 
-        if(GetComponent<Character>().life <= 0)
+        if (GetComponent<Character>().life <= 0)
         {
             rb.simulated = false;
             this.enabled = false;
         }
 
         dashTime = dashTime + Time.deltaTime;
-        if (Input.GetButtonDown("Fire2") && dashTime > 1) 
+        if (Input.GetButtonDown("Fire2") && dashTime > 1)
         {
             audioSource.PlayOneShot(dashSound, 0.5f);
 
@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && comboTime > 0.5f)
         {
             comboNum++;
-            if(comboNum > 2) 
+            if (comboNum > 2)
             {
                 comboNum = 1;
             }
@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
             comboTime = 0;
             skin.GetComponent<Animator>().Play("PlayerAttack" + comboNum, -1);
 
-            if(comboNum == 1)
+            if (comboNum == 1)
 
             {
                 audioSource.PlayOneShot(attack1Sound, 0.5f);
@@ -88,13 +88,13 @@ public class PlayerController : MonoBehaviour
                 audioSource.PlayOneShot(attack2Sound, 0.5f);
             }
         }
-       if(comboTime >= 1)
+        if (comboTime >= 1)
         {
             comboNum = 0;
         }
 
 
-       //Pulo do personagem 
+        //Pulo do personagem 
 
         bool canJump = Physics2D.OverlapCircle(floorCollider.position, 1f, floorLayer);
         Debug.Log(canJump);
@@ -127,4 +127,10 @@ public class PlayerController : MonoBehaviour
             rb.velocity = vel;
         }
     }
-}  
+
+    public void DestroyPlayer()
+    {
+
+    }
+
+}
