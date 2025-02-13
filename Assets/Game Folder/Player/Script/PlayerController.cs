@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
 
     public void DestroyPlayer()
     {
-
+        Destroy(transform.gameObject);
     }
 
 }

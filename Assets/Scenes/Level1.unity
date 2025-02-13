@@ -46921,10 +46921,10 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420035}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
   - component: {fileID: 519420036}
-  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -72620,6 +72620,7 @@ GameObject:
   - component: {fileID: 2131390829}
   - component: {fileID: 2131390828}
   - component: {fileID: 2131390827}
+  - component: {fileID: 2131390830}
   m_Layer: 5
   m_Name: GamerOver
   m_TagString: Untagged
@@ -72699,6 +72700,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131390825}
   m_CullTransparentMesh: 1
+--- !u!114 &2131390830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131390825}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3917c559f156bc441a667e3d26bbddd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2144954114
 PrefabInstance:
   m_ObjectHideFlags: 0
