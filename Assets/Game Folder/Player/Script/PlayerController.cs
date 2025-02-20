@@ -19,6 +19,9 @@ public class PlayerController : MonoBehaviour
     public Transform floorCollider;
     public Transform skin;
 
+    public Transform gamerOverScreen;
+    public Transform pauseScreen;
+
     public int comboNum;
     public float comboTime;
     public float dashTime;
@@ -49,9 +52,17 @@ public class PlayerController : MonoBehaviour
 
         if (GetComponent<Character>().life <= 0)
         {
+            gamerOverScreen.GetComponent<GameOver>().enabled = true;
             rb.simulated = false;
             this.enabled = false;
         }
+
+        if (Input.GetButtonDown("Cancel"))
+            {
+
+            pauseScreen.GetComponent<Pause>().enabled = !pauseScreen.GetComponent<Pause>().enabled;
+
+            }
 
         dashTime = dashTime + Time.deltaTime;
         if (Input.GetButtonDown("Fire2") && dashTime > 1)
