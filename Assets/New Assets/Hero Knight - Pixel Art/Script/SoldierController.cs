@@ -27,7 +27,6 @@ public class SoldierController : MonoBehaviour
     void Update()
     {
         if (GetComponent<Character>().life <= 0)
-
         {
 
             audioSource.PlayOneShot(dieSound, 0.5f);

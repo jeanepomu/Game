@@ -73626,9 +73626,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2425597951505012541, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_Radius
+      value: 0.02579487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425597951505012541, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.108328104
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425597952212577525, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 3289588219339390826, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
       propertyPath: m_Name
       value: SoldierEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487427177032286501, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_Radius
+      value: 0.02579487
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487427177032286501, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487427177032286501, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.108328104
       objectReference: {fileID: 0}
     - target: {fileID: 5285434719265025709, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
       propertyPath: m_SortingLayer
@@ -73637,6 +73661,14 @@ PrefabInstance:
     - target: {fileID: 5285434719265025709, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
       propertyPath: m_SortingLayerID
       value: -1062691481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301024055195098665, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301024055195098665, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7935343781668689637, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
       propertyPath: audioSource
