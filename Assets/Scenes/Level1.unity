@@ -283,6 +283,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44752358}
   m_CullTransparentMesh: 1
+--- !u!82 &64582777 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 326921468020956096, guid: 72193a5b5da1a0043a8a1d5baa307c2c, type: 3}
+  m_PrefabInstance: {fileID: 1168967336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &76123669
 GameObject:
   m_ObjectHideFlags: 0
@@ -50485,6 +50490,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245774306}
   m_CullTransparentMesh: 1
+--- !u!1 &1247333691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4230924411751478152, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+  m_PrefabInstance: {fileID: 1794526013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1247333694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247333691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c9eaa6bc3632f49883b4a2982554a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1262084863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73626,14 +73648,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2425597951505012541, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
-      propertyPath: m_Radius
-      value: 0.02579487
-      objectReference: {fileID: 0}
-    - target: {fileID: 2425597951505012541, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.108328104
-      objectReference: {fileID: 0}
+    - target: {fileID: 2425597950996088984, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 425891480}
+    - target: {fileID: 2425597951092149894, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 64582777}
     - target: {fileID: 2425597952212577525, guid: a1cd605eddb509e4586a63f68053b6a1, type: 3}
       propertyPath: m_RootOrder
       value: 14
