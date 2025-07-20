@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -41,6 +42,10 @@ public class Character : MonoBehaviour
         GetComponent<PlayerController>().audioSource.PlayOneShot(GetComponent<PlayerController>().damageSound);
     }
 
+    internal void TakeDamage(int v)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 
