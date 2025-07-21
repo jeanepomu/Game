@@ -19,7 +19,7 @@ public class SoldierEvent : MonoBehaviour
 
     }
 
-    public void SoldierAttackSound()
+    public void KeeperAttackSound()
 
     {
         audioSource.PlayOneShot(attackSound, 0.5f);
