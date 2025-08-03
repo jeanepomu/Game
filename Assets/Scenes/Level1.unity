@@ -47029,6 +47029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lanparina2
       objectReference: {fileID: 0}
+    - target: {fileID: 307853730665738172, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 307853730665738175, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -47101,6 +47105,10 @@ PrefabInstance:
     - target: {fileID: 1119286066, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.011841984
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119286067, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1119286067, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
       propertyPath: m_PointLightOuterRadius
@@ -70727,6 +70735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lanparina2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 307853730665738172, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 307853730665738175, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -72456,6 +72468,10 @@ PrefabInstance:
       value: 0.008372575
       objectReference: {fileID: 0}
     - target: {fileID: 1119286067, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119286067, guid: abb8fd6219c857e4dafb4e884e0364e3, type: 3}
       propertyPath: m_PointLightOuterRadius
       value: 6.1947536
       objectReference: {fileID: 0}
@@ -73212,6 +73228,10 @@ PrefabInstance:
     - target: {fileID: 5023872546834426367, guid: 94416555f21f67e42a83b20f0f6f2d85, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539209133827144571, guid: 94416555f21f67e42a83b20f0f6f2d85, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94416555f21f67e42a83b20f0f6f2d85, type: 3}
