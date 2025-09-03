@@ -262,7 +262,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1711,10 +1711,10 @@ TextureImporter:
       Bringer-of-Death-SpritSheet_3: -1554090680192844270
       Bringer-of-Death-SpritSheet_62: 1900342803882551889
       Bringer-of-Death-SpritSheet_32: -6959215256267499731
-      Bringer-of-Death-SpritSheet_6: -8721093536611414691
       Bringer-of-Death-SpritSheet_41: -4818586564699129774
-      Bringer-of-Death-SpritSheet_21: -2960163153839071603
       Bringer-of-Death-SpritSheet_1: -1378873467200105373
+      Bringer-of-Death-SpritSheet_21: -2960163153839071603
+      Bringer-of-Death-SpritSheet_6: -8721093536611414691
       Bringer-of-Death-SpritSheet_0: -6237223263896097850
       Bringer-of-Death-SpritSheet_22: -6342980997288685656
       Bringer-of-Death-SpritSheet_20: 1887337606458979207

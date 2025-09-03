@@ -72698,6 +72698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoldierEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 3322179810410537351, guid: 57913afd1bd436544836f35dd3a4671c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3322179811981444152, guid: 57913afd1bd436544836f35dd3a4671c, type: 3}
       propertyPath: life
       value: 3
