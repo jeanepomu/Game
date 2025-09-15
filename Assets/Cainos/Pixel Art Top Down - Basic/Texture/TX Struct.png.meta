@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69f5f7b816c2dcb42a9a332a8c326ebb
+guid: dda6bbdb704d84847b38f9eced72bf59
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -678,7 +678,7 @@ TextureImporter:
       name: TX Stairs W 01 U
       rect:
         serializedVersion: 2
-        x: 40
+        x: 48
         y: 178
         width: 90
         height: 46
@@ -699,7 +699,7 @@ TextureImporter:
       name: TX Stairs W 02 U
       rect:
         serializedVersion: 2
-        x: 168
+        x: 176
         y: 178
         width: 90
         height: 46
@@ -720,8 +720,8 @@ TextureImporter:
       name: TX Stairs E 01 U
       rect:
         serializedVersion: 2
-        x: 416
-        y: 178
+        x: 184
+        y: 82
         width: 88
         height: 46
       alignment: 9
@@ -741,8 +741,8 @@ TextureImporter:
       name: TX Stairs E 02 U
       rect:
         serializedVersion: 2
-        x: 288
-        y: 178
+        x: 56
+        y: 82
         width: 88
         height: 46
       alignment: 9
@@ -762,7 +762,7 @@ TextureImporter:
       name: TX Stairs W 01 L
       rect:
         serializedVersion: 2
-        x: 40
+        x: 48
         y: 128
         width: 90
         height: 50
@@ -783,7 +783,7 @@ TextureImporter:
       name: TX Stairs W 02 L
       rect:
         serializedVersion: 2
-        x: 168
+        x: 176
         y: 128
         width: 90
         height: 50
@@ -804,8 +804,8 @@ TextureImporter:
       name: TX Stairs E 02 L
       rect:
         serializedVersion: 2
-        x: 288
-        y: 128
+        x: 56
+        y: 32
         width: 88
         height: 50
       alignment: 9
@@ -825,8 +825,8 @@ TextureImporter:
       name: TX Stairs E 01 L
       rect:
         serializedVersion: 2
-        x: 416
-        y: 128
+        x: 184
+        y: 32
         width: 88
         height: 50
       alignment: 9
