@@ -71,9 +71,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1062691481
+  m_SortingLayerID: -105541197
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1911961101, guid: d8cac147fb300924fb0e7f7d968b32eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &8849687974493553370
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,7 +104,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8849687974674772127
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8849687974674772124}
   - component: {fileID: 8849687974674772125}
-  - component: {fileID: 8849687974674772126}
+  - component: {fileID: 7374157386981463783}
   - component: {fileID: 457889478382793871}
   m_Layer: 0
   m_Name: BearTrap
@@ -166,7 +167,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.20282196, y: 0.12096921}
   m_EdgeRadius: 0
---- !u!114 &8849687974674772126
+--- !u!114 &7374157386981463783
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

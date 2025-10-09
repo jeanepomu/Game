@@ -72,7 +72,9 @@ public class PlayerController : MonoBehaviour
             dashTime = 0;
             skin.GetComponent<Animator>().Play("PlayerDash", -1);
             rb.velocity = Vector2.zero;
+            rb.gravityScale = 0;
             rb.AddForce(new Vector2(skin.localScale.x * 650, 0));
+            Invoke("RestoreGravityScale", 0.2f);
         }
 
         comboTime = comboTime + Time.deltaTime;
@@ -142,6 +144,12 @@ public class PlayerController : MonoBehaviour
     public void DestroyPlayer()
     {
         Destroy(transform.gameObject);
+    }
+
+    void RestoreGravityScale()
+    {
+
+        rb.gravityScale = 6;
     }
 
 }

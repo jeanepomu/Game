@@ -319,7 +319,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4743420424822862880}
-  - component: {fileID: 4185110710185803749}
   - component: {fileID: 4743420424822862882}
   - component: {fileID: 4743420424822862881}
   - component: {fileID: 333640541}
@@ -348,22 +347,6 @@ Transform:
   m_Father: {fileID: 4743420424652868246}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &4185110710185803749
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4743420424822862887}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.02879194, y: 0.121349744}
-  m_Size: {x: 0.082684666, y: 0.24269949}
-  m_Direction: 0
 --- !u!212 &4743420424822862882
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -404,7 +387,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -105541197
   m_SortingLayer: 3
-  m_SortingOrder: 5
+  m_SortingOrder: 0
   m_Sprite: {fileID: 443358302, guid: 41d1a8b0496a0cc4caa2533b1b7c17bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -418,7 +401,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &4743420424822862881
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -435,7 +418,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &333640541
 AudioSource:
   m_ObjectHideFlags: 0
