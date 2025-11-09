@@ -1004,7 +1004,7 @@ GameObject:
   - component: {fileID: 231151104}
   - component: {fileID: 231151106}
   - component: {fileID: 231151105}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Front
   m_TagString: Floor
   m_Icon: {fileID: 0}
@@ -49451,7 +49451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897001911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.6, y: 11.99, z: -10}
+  m_LocalPosition: {x: -26.3, y: 12.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

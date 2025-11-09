@@ -1816,7 +1816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016933194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3, y: 8.4, z: -1}
+  m_LocalPosition: {x: -21.4, y: 6.2, z: -1}
   m_LocalScale: {x: 0.238, y: 0.238, z: 0.238}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1891,7 +1891,7 @@ Camera:
   far clip plane: 1000
   field of view: 60.000004
   orthographic: 1
-  orthographic size: 16.02855
+  orthographic size: 9.517803
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11855,7 +11855,7 @@ GameObject:
   - component: {fileID: 2105057107}
   - component: {fileID: 2105057106}
   - component: {fileID: 2105057105}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Front
   m_TagString: Floor
   m_Icon: {fileID: 0}
