@@ -8,6 +8,8 @@ public class BossController : MonoBehaviour
     public Transform B;
     public Vector3 targetPosition;
 
+    public Transform laser;
+    public float laserTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,17 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        laserTime += Time.deltaTime;
+        if (laserTime > 6)
+        {
+            laserTime = 0;
+
+            laser.gameObject.SetActive(false);
+            laser.GetChild(0).GetComponent<TrailRenderer>().Clear();
+            laser.position = transform.position;
+            laser.gameObject.SetActive(true);
+        }
+
         if (transform.position == A.position)
         {
             targetPosition = B.position;

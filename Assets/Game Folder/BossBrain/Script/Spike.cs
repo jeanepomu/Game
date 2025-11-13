@@ -18,6 +18,7 @@ public class Spike : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             boss = collision.transform;
+            collision.GetComponent<BossController>().enabled = false;
             collision.transform.parent = transform;
             collision.transform.localPosition = Vector3.zero;
         }
@@ -26,6 +27,7 @@ public class Spike : MonoBehaviour
     public void ReleaseBoss()
 
     {
+        boss.GetComponent<BossController>().enabled = true;
         boss.parent = null;
     }
 }
