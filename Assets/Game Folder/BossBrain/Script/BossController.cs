@@ -19,6 +19,12 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GetComponent<Character>().life <= 0)
+
+        {
+            return;
+        }
+
         laserTime += Time.deltaTime;
         if (laserTime > 6)
         {

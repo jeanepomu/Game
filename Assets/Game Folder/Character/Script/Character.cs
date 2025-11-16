@@ -21,7 +21,7 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (life <= 0)
+        if (life <= 0 && !transform.name.Equals("BossBrain"))
         {
             skin.GetComponent<Animator>().Play("Die", -1);
         }
@@ -31,7 +31,16 @@ public class Character : MonoBehaviour
             heartCountText.text = "x" + life.ToString();
         }
              
-
+        if(transform.name.Equals("BossBrain"))
+        {
+            transform.GetChild(0).GetComponent<SpriteRenderer>().size = new Vector2(1.78f,  (life * 1.09f / 30f));
+            
+            if(life <= 0)
+            
+            {
+                GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            }
+        }
     }
 
     public void PlayerDamage(int value )
