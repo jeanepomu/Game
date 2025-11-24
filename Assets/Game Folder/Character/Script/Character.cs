@@ -39,6 +39,10 @@ public class Character : MonoBehaviour
             
             {
                 GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+
+                GameObject.Find("YouWin").GetComponent<GameOver>().enabled = true;
+                GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
+                GameObject.Find("Player").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             }
         }
     }
