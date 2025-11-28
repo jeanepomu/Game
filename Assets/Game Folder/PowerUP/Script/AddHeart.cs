@@ -1,27 +1,23 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AddHeart : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioClip sound;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            // Aumenta a vida do player
             collision.GetComponent<Character>().life++;
-            Destroy(transform.gameObject);
-        }
 
-            }
+            // Toca o áudio do coração
+            audioSource.Play();
+
+            // Destrói o coração depois do som terminar
+            Destroy(gameObject, audioSource.clip.length);
+        }
+    }
 }

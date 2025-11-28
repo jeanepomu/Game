@@ -14,6 +14,7 @@ public class Character : MonoBehaviour
     public Text heartCountText;
 
     public AudioClip bossBattleMusic;
+    public AudioClip youWin;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +43,33 @@ public class Character : MonoBehaviour
                 cam.parent = null;
                 SceneManager.MoveGameObjectToScene(cam.gameObject, SceneManager.GetActiveScene());
 
-                cam.GetComponent<AudioSource>().clip = bossBattleMusic;
+                if(GameObject.Find("BossBrain").GetComponent<Character>().life > 0)
+                {
+                   if(cam.GetComponent<AudioSource>().clip != bossBattleMusic)
+                    {
+                        cam.GetComponent<AudioSource>().clip = bossBattleMusic;
+                        cam.GetComponent<AudioSource>().Play();
+
+                    }                      
+                                      
+                    
+                }
+                else
+                {
+                    GameObject.Find("YouWin").GetComponent<GameOver>().enabled = true;
+                    GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
+                    GameObject.Find("Player").GetComponent<CapsuleCollider2D>().enabled = false;
+                    GameObject.Find("Player").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+
+                    if (cam.GetComponent<AudioSource>().clip != null)
+
+                    {
+                        cam.GetComponent<AudioSource>().Stop();
+                        cam.GetComponent<AudioSource>().clip = null;
+                        cam.GetComponent<AudioSource>().PlayOneShot(youWin);
+
+                    }
+                }
             }
         }
 
@@ -56,10 +83,7 @@ public class Character : MonoBehaviour
             {
                 GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
 
-                GameObject.Find("YouWin").GetComponent<GameOver>().enabled = true;
-                GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
-                GameObject.Find("Player").GetComponent<CapsuleCollider2D>().enabled = false;
-                GameObject.Find("Player").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+                                                            
             }
         }
     }

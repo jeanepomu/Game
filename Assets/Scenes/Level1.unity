@@ -337,6 +337,8 @@ MonoBehaviour:
   cam: {fileID: 519420032}
   player: {fileID: 0}
   heartCountText: {fileID: 314261641}
+  bossBattleMusic: {fileID: 0}
+  youWin: {fileID: 0}
 --- !u!82 &161736504
 AudioSource:
   m_ObjectHideFlags: 0
