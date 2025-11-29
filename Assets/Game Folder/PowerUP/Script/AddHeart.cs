@@ -10,14 +10,14 @@ public class AddHeart : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            // Aumenta a vida do player
+            // Aumenta a vida
             collision.GetComponent<Character>().life++;
 
-            // Toca o áudio do coração
-            audioSource.Play();
+            // Toca o som no espaço, independente do coração existir
+            AudioSource.PlayClipAtPoint(sound, transform.position);
 
-            // Destrói o coração depois do som terminar
-            Destroy(gameObject, audioSource.clip.length);
+            // Some imediatamente
+            Destroy(gameObject);
         }
     }
 }

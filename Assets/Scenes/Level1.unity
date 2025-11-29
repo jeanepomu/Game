@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -762.4096, y: 253.00009}
-  m_SizeDelta: {x: 165.576, y: 53.644}
+  m_AnchoredPosition: {x: -731.6, y: 238.5}
+  m_SizeDelta: {x: 165.576, y: 81.971}
   m_Pivot: {x: 0.33426794, y: 0.50000095}
 --- !u!114 &44752360
 MonoBehaviour:
@@ -46792,8 +46792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -724.7, y: 250.6}
-  m_SizeDelta: {x: 32.328, y: 21.13}
+  m_AnchoredPosition: {x: -672.3, y: 234.8}
+  m_SizeDelta: {x: 49.684, y: 35.999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &314261641
 MonoBehaviour:
@@ -46808,7 +46808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -46821,7 +46821,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 109
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -46957,8 +46957,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -764.9096, y: 251.00009}
-  m_SizeDelta: {x: 44.3257, y: 35.0941}
+  m_AnchoredPosition: {x: -735.3, y: 235.7}
+  m_SizeDelta: {x: 50.22, y: 42.299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348511488
 MonoBehaviour:
@@ -48783,6 +48783,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2943900289334064316, guid: caff69eade50acb4fa489f8809034e0f,
+        type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 69d2f903b41d595489d37f51150f0e6f, type: 3}
     - target: {fileID: 2943900290319423243, guid: caff69eade50acb4fa489f8809034e0f,
         type: 3}
       propertyPath: m_SortingLayer
@@ -48797,6 +48802,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: -105541197
+      objectReference: {fileID: 0}
+    - target: {fileID: 5507394217223290250, guid: caff69eade50acb4fa489f8809034e0f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caff69eade50acb4fa489f8809034e0f, type: 3}
