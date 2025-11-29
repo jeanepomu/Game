@@ -21,7 +21,7 @@ public class BatController : MonoBehaviour
         {
 
             GetComponent<CircleCollider2D>().enabled = false;
-            GetComponent<Rigidbody2D>().gravityScale = 1;
+            GetComponent<Rigidbody2D>().gravityScale = 2;
             this.enabled = false;
 
         }

@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &1961038641573130737
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,7 +104,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1961038642317826333
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,6 +211,8 @@ MonoBehaviour:
   cam: {fileID: 0}
   player: {fileID: 0}
   heartCountText: {fileID: 0}
+  bossBattleMusic: {fileID: 0}
+  youWin: {fileID: 0}
 --- !u!82 &7254238902023819801
 AudioSource:
   m_ObjectHideFlags: 0
@@ -231,7 +234,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 0.9
-  MaxDistance: 12
+  MaxDistance: 9.45
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0

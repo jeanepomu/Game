@@ -46764,6 +46764,8 @@ MonoBehaviour:
   cam: {fileID: 0}
   player: {fileID: 0}
   heartCountText: {fileID: 0}
+  bossBattleMusic: {fileID: 0}
+  youWin: {fileID: 0}
 --- !u!114 &1416391645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51022,6 +51024,8 @@ MonoBehaviour:
   cam: {fileID: 0}
   player: {fileID: 0}
   heartCountText: {fileID: 0}
+  bossBattleMusic: {fileID: 0}
+  youWin: {fileID: 0}
 --- !u!1 &8163895363483112789
 GameObject:
   m_ObjectHideFlags: 0
