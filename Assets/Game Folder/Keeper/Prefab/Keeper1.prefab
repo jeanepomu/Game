@@ -175,11 +175,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7285536dc5a1d468899ee534b2b0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 5
+  life: 3
   skin: {fileID: 4743420424822862880}
   cam: {fileID: 0}
   player: {fileID: 0}
   heartCountText: {fileID: 0}
+  bossBattleMusic: {fileID: 0}
+  youWin: {fileID: 0}
 --- !u!82 &326921468020956096
 AudioSource:
   m_ObjectHideFlags: 0

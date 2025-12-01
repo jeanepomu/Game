@@ -22,7 +22,7 @@ public class TriggerLevel3Level4 : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Level3");
+            SceneManager.LoadScene("Level4");
         }
     }
 

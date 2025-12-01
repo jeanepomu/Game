@@ -80,9 +80,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.12878753, y: 0.529953}
+  m_Offset: {x: -0.45404565, y: 0.5299529}
   serializedVersion: 2
-  m_Radius: 0.4388522
+  m_Radius: 0.4007631
 --- !u!114 &6807910647586399156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1062691481
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -200,7 +200,7 @@ MonoBehaviour:
   attackSound: {fileID: 8300000, guid: 615280a97e3d1f34782e61bad16bc49e, type: 3}
 --- !u!95 &6807910648111930715
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -217,7 +217,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &6807910648111930716
 AudioSource:
   m_ObjectHideFlags: 0
@@ -354,6 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6807910648777676530}
+  - component: {fileID: 5076787661614108225}
   - component: {fileID: 6807910648777676542}
   - component: {fileID: 6807910648777676543}
   - component: {fileID: 6807910648777676528}
@@ -381,6 +383,27 @@ Transform:
   m_Father: {fileID: 6807910647571897328}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &5076787661614108225
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6807910648777676531}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!70 &6807910648777676542
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -409,11 +432,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7285536dc5a1d468899ee534b2b0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 5
+  life: 3
   skin: {fileID: 6807910648111930717}
   cam: {fileID: 0}
   player: {fileID: 0}
   heartCountText: {fileID: 0}
+  bossBattleMusic: {fileID: 0}
+  youWin: {fileID: 0}
 --- !u!114 &6807910648777676528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,9 +631,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.12878753, y: 0.529953}
+  m_Offset: {x: -0.45404565, y: 0.5299529}
   serializedVersion: 2
-  m_Radius: 0.4388522
+  m_Radius: 0.4007631
 --- !u!114 &6807910649289125405
 MonoBehaviour:
   m_ObjectHideFlags: 0

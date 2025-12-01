@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -1051,49 +1051,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mainlevbuild_34: 134561419
-      mainlevbuild_20: -1359272797
-      mainlevbuild_1: -428772120
-      mainlevbuild_23: 1147383146
-      mainlevbuild_12: -1418715567
-      mainlevbuild_41: 1317717781
-      mainlevbuild_11: 1055143932
       mainlevbuild_0: -1828915563
-      mainlevbuild_33: -1255902202
-      mainlevbuild_5: -1290664274
-      mainlevbuild_24: -633335354
-      mainlevbuild_43: 1076788643
-      mainlevbuild_15: 1473774887
-      mainlevbuild_27: 621124423
-      mainlevbuild_19: 963600140
-      mainlevbuild_30: 1420734081
-      mainlevbuild_2: -480291534
-      mainlevbuild_35: 1216878814
-      mainlevbuild_37: -1534232231
-      mainlevbuild_28: -738467967
-      mainlevbuild_17: 1103762317
-      mainlevbuild_26: -2025421553
-      mainlevbuild_3: 30242464
-      mainlevbuild_8: -353422727
-      mainlevbuild_40: -654860962
-      mainlevbuild_22: -2102047912
-      mainlevbuild_25: 2135674218
-      mainlevbuild_42: 1365182637
-      mainlevbuild_18: -554508611
-      mainlevbuild_38: 1845740388
-      mainlevbuild_29: 677785294
-      mainlevbuild_7: 715560391
-      mainlevbuild_21: 1596352140
-      mainlevbuild_32: -1605171149
-      mainlevbuild_13: -489258217
-      mainlevbuild_6: -1493467132
-      mainlevbuild_36: -960446980
-      mainlevbuild_14: 877457571
-      mainlevbuild_39: -152092365
+      mainlevbuild_1: -428772120
       mainlevbuild_10: 470530206
-      mainlevbuild_4: 138623459
-      mainlevbuild_31: 940814830
+      mainlevbuild_11: 1055143932
+      mainlevbuild_12: -1418715567
+      mainlevbuild_13: -489258217
+      mainlevbuild_14: 877457571
+      mainlevbuild_15: 1473774887
       mainlevbuild_16: -891477187
+      mainlevbuild_17: 1103762317
+      mainlevbuild_18: -554508611
+      mainlevbuild_19: 963600140
+      mainlevbuild_2: -480291534
+      mainlevbuild_20: -1359272797
+      mainlevbuild_21: 1596352140
+      mainlevbuild_22: -2102047912
+      mainlevbuild_23: 1147383146
+      mainlevbuild_24: -633335354
+      mainlevbuild_25: 2135674218
+      mainlevbuild_26: -2025421553
+      mainlevbuild_27: 621124423
+      mainlevbuild_28: -738467967
+      mainlevbuild_29: 677785294
+      mainlevbuild_3: 30242464
+      mainlevbuild_30: 1420734081
+      mainlevbuild_31: 940814830
+      mainlevbuild_32: -1605171149
+      mainlevbuild_33: -1255902202
+      mainlevbuild_34: 134561419
+      mainlevbuild_35: 1216878814
+      mainlevbuild_36: -960446980
+      mainlevbuild_37: -1534232231
+      mainlevbuild_38: 1845740388
+      mainlevbuild_39: -152092365
+      mainlevbuild_4: 138623459
+      mainlevbuild_40: -654860962
+      mainlevbuild_41: 1317717781
+      mainlevbuild_42: 1365182637
+      mainlevbuild_43: 1076788643
+      mainlevbuild_5: -1290664274
+      mainlevbuild_6: -1493467132
+      mainlevbuild_7: 715560391
+      mainlevbuild_8: -353422727
       mainlevbuild_9: 1270713985
   spritePackingTag: 
   pSDRemoveMatte: 0
