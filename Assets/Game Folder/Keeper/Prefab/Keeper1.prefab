@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7285536dc5a1d468899ee534b2b0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 3
+  life: 4
   skin: {fileID: 4743420424822862880}
   cam: {fileID: 0}
   player: {fileID: 0}

@@ -13,8 +13,8 @@ TagManager:
   - TileMapFront
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 

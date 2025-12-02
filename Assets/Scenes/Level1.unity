@@ -363,8 +363,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161736498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.726, y: -4.275, z: 0}
-  m_LocalScale: {x: 6.097526, y: 6.097526, z: 6.097526}
+  m_LocalPosition: {x: -10.726, y: -4.31, z: 0}
+  m_LocalScale: {x: 6.4762073, y: 6.065244, z: 6.097526}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1746705172}
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7285536dc5a1d468899ee534b2b0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 3
+  life: 4
   skin: {fileID: 1746705172}
   cam: {fileID: 1256190110}
   player: {fileID: 161736498}
