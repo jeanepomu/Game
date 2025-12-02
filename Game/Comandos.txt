@@ -1,4 +1,6 @@
+Ataque - Botão esquerdo do Mouse
 Pular - Espaço/ W
 Dash - Shift Esquerdo / Botado Direito do Mouse
 Andar - W / A  / D
 Pausar - Esc
+
