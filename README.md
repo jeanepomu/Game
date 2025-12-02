@@ -1,4 +1,4 @@
-## Para jogar o TheCastl 
+## Para jogar o TheCastle
 
 Baixe a pasta Game e execute o TheCastle.exe ou TheCastle
 
